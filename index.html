@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<nav class="menu">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Privacy</a></li>
+    </ul>
+</nav>
+
+<div class="box">
+  <div class="box1 boxes animate__animated wow animate__zoomIn"></div>
+  <div class="box2 boxes animate__animated wow animate__slideInUp"></div>
+  <div class="box3 boxes animate__animated wow animate__slideInRight"></div>
+</div>
+
+
+  <div class="meow">
+    <div class="meow1  animate__animated wow animate__flipInX ab">
+      <h2>box1</h2>
+    </div>
+    <div class="meow2 animate__animated wow animate__fadeInTopLeft ab">
+      <h2>box2</h2>
+    </div>
+    <div class="meow3 animate__animated wow animate__tada ab">
+      <h2>box3</h2>
+    </div>
+    <div class="meow4 animate__animated wow animate__bounce ab">
+      <h2>box4</h2>
+    </div>
+    <div class="meow5 animate__animated animate__backInDown wow ab">
+      <h2>box5</h2>
+    </div>
+    <div class="meow6 animate__animated animate__bounceInRight wow ab">
+      <h2>box6</h2>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+
+<!-- js files -->
+
+<script src="js/jquery.meanmenu.min.js"></script>
+<script>
+    $(document).ready(function () {
+      $('.menu').meanmenu(
+        {
+          meanScreenWidth: '768',
+        }
+      );
+    });
+  </script>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+    </script>
+
+</body>
+</html>
